@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		C1BF5E9626D2A27A001C36F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9526D2A27A001C36F7 /* Movie.swift */; };
 		C1BF5E9B26D2A881001C36F7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9A26D2A881001C36F7 /* Video.swift */; };
 		C1BF5EA126D2B4D3001C36F7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5EA026D2B4D3001C36F7 /* APIManager.swift */; };
+		C1BF5EB826D2EEB9001C36F7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5EB626D2EEB9001C36F7 /* MovieTableViewCell.swift */; };
+		C1BF5EB926D2EEB9001C36F7 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5EB726D2EEB9001C36F7 /* MovieTableViewCell.xib */; };
 		ED15BC1BC8507BCAC777FA38 /* Pods_PruebaTecnicaBancoAzteca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56907CCCF284DD5F0DF49E2 /* Pods_PruebaTecnicaBancoAzteca.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		C1BF5E9526D2A27A001C36F7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C1BF5E9A26D2A881001C36F7 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		C1BF5EA026D2B4D3001C36F7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C1BF5EB626D2EEB9001C36F7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C1BF5EB726D2EEB9001C36F7 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		E348801DD682A28B8EC7AD2A /* Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAztecaTests/Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F56907CCCF284DD5F0DF49E2 /* Pods_PruebaTecnicaBancoAzteca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaTecnicaBancoAzteca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,7 +111,6 @@
 				E348801DD682A28B8EC7AD2A /* Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig */,
 				86DA7268753472F69F1417A9 /* Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +158,7 @@
 				C1BF5E6626D20E66001C36F7 /* Assets.xcassets */,
 				C1BF5E9F26D2B4A1001C36F7 /* Network */,
 				C1BF5E6B26D20E66001C36F7 /* Info.plist */,
+				C1BF5EBD26D2F390001C36F7 /* Cells */,
 			);
 			path = PruebaTecnicaBancoAzteca;
 			sourceTree = "<group>";
@@ -192,6 +196,15 @@
 				C1BF5EA026D2B4D3001C36F7 /* APIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		C1BF5EBD26D2F390001C36F7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5EB626D2EEB9001C36F7 /* MovieTableViewCell.swift */,
+				C1BF5EB726D2EEB9001C36F7 /* MovieTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +317,7 @@
 			files = (
 				C1BF5E6A26D20E66001C36F7 /* LaunchScreen.storyboard in Resources */,
 				C1BF5E6726D20E66001C36F7 /* Assets.xcassets in Resources */,
+				C1BF5EB926D2EEB9001C36F7 /* MovieTableViewCell.xib in Resources */,
 				C1BF5E6526D20E5C001C36F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +448,7 @@
 			files = (
 				C1BF5EA126D2B4D3001C36F7 /* APIManager.swift in Sources */,
 				C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */,
+				C1BF5EB826D2EEB9001C36F7 /* MovieTableViewCell.swift in Sources */,
 				C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */,
 				C1BF5E9626D2A27A001C36F7 /* Movie.swift in Sources */,
 				C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */,
