@@ -15,6 +15,8 @@
 		C1BF5E6A26D20E66001C36F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */; };
 		C1BF5E7526D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E7426D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift */; };
 		C1BF5E8026D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E7F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift */; };
+		C1BF5E9626D2A27A001C36F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9526D2A27A001C36F7 /* Movie.swift */; };
+		C1BF5E9B26D2A881001C36F7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9A26D2A881001C36F7 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C1BF5E7B26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaBancoAztecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BF5E7F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaBancoAztecaUITests.swift; sourceTree = "<group>"; };
 		C1BF5E8126D20E66001C36F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF5E9526D2A27A001C36F7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C1BF5E9A26D2A881001C36F7 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,9 @@
 				C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */,
 				C1BF5E6126D20E5C001C36F7 /* ViewController.swift */,
 				C1BF5E6326D20E5C001C36F7 /* Main.storyboard */,
-				C1BF5E6626D20E66001C36F7 /* Assets.xcassets */,
 				C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */,
+				C1BF5E9426D2A1DB001C36F7 /* Models */,
+				C1BF5E6626D20E66001C36F7 /* Assets.xcassets */,
 				C1BF5E6B26D20E66001C36F7 /* Info.plist */,
 			);
 			path = PruebaTecnicaBancoAzteca;
@@ -126,6 +131,15 @@
 				C1BF5E8126D20E66001C36F7 /* Info.plist */,
 			);
 			path = PruebaTecnicaBancoAztecaUITests;
+			sourceTree = "<group>";
+		};
+		C1BF5E9426D2A1DB001C36F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E9526D2A27A001C36F7 /* Movie.swift */,
+				C1BF5E9A26D2A881001C36F7 /* Video.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +274,9 @@
 			files = (
 				C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */,
 				C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */,
+				C1BF5E9626D2A27A001C36F7 /* Movie.swift in Sources */,
 				C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */,
+				C1BF5E9B26D2A881001C36F7 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
