@@ -6,29 +6,30 @@
 
 import Foundation
 
-struct Movie: Decodable {
-    let id: Int?
-    let originalTitle: String?
-    let overview : String?
-    let image : String?
-    let voteAverage : Int?
-    let voteCount : Int?
-    
-    private enum Map: String, CodingKey
-    {
-        case id = "id"
-        case originalTitle = "title"
-        case overview = "overview"
-        case image = "image"
-        case voteAverage = "vote_average"
-        case voteCount = "vote_count"
-    }
-}
- 
 struct MovieData: Decodable {
-    let movies: Movie
+    let movies: [Movie]
     
-    private enum Map: String, CodingKey{
+    private enum CodingKeys: String, CodingKey{
         case movies = "results"
     }
 }
+struct Movie: Decodable {
+    let id: Int?
+    let title: String?
+    let overview : String?
+    let image : String?
+    let voteAverage : Double?
+    let voteCount : Int?
+    let releaseDate : String?
+    
+    private enum CodingKeys: String, CodingKey
+    {
+        case id, title,overview
+        case image = "poster_path"
+        case voteAverage = "vote_average"
+        case voteCount = "vote_count"
+        case releaseDate = "release_date"
+    }
+}
+ 
+

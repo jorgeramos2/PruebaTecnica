@@ -7,6 +7,14 @@
 
 import Foundation
 
+struct VideoData: Decodable {
+    let videos: [Video]
+    
+    private enum CodingKeys: String, CodingKey{
+        case videos = "results"
+    }
+}
+
 struct Video: Decodable {
     let key: String?
     let site: String?
@@ -20,10 +28,3 @@ struct Video: Decodable {
     }
 }
  
-struct VideoData: Decodable {
-    let videos: Video
-    
-    private enum Map: String, CodingKey{
-        case videos = "results"
-    }
-}
