@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CF6BE0FB970A4B3930E152 /* Pods_PruebaTecnicaBancoAztecaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37668ED66CEF5F750194A498 /* Pods_PruebaTecnicaBancoAztecaTests.framework */; };
+		AE97E03BB0A501EC575EB303 /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18BFF0D19DB5B1974DDBDB /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework */; };
 		C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */; };
 		C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */; };
 		C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E6126D20E5C001C36F7 /* ViewController.swift */; };
@@ -18,6 +20,7 @@
 		C1BF5E9626D2A27A001C36F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9526D2A27A001C36F7 /* Movie.swift */; };
 		C1BF5E9B26D2A881001C36F7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E9A26D2A881001C36F7 /* Video.swift */; };
 		C1BF5EA126D2B4D3001C36F7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5EA026D2B4D3001C36F7 /* APIManager.swift */; };
+		ED15BC1BC8507BCAC777FA38 /* Pods_PruebaTecnicaBancoAzteca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56907CCCF284DD5F0DF49E2 /* Pods_PruebaTecnicaBancoAzteca.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D18BFF0D19DB5B1974DDBDB /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37668ED66CEF5F750194A498 /* Pods_PruebaTecnicaBancoAztecaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaTecnicaBancoAztecaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FCF431A7DBF3A1A798DF08 /* Pods-PruebaTecnicaBancoAzteca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAzteca.release.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAzteca/Pods-PruebaTecnicaBancoAzteca.release.xcconfig"; sourceTree = "<group>"; };
+		46EFDF783B926713E3224C0A /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.release.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86DA7268753472F69F1417A9 /* Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAztecaTests/Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig"; sourceTree = "<group>"; };
+		88D193EC69C3F87C1518FBFA /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.debug.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB85227D6D91FB8375EB117 /* Pods-PruebaTecnicaBancoAzteca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAzteca.debug.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAzteca/Pods-PruebaTecnicaBancoAzteca.debug.xcconfig"; sourceTree = "<group>"; };
 		C1BF5E5A26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnicaBancoAzteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +65,8 @@
 		C1BF5E9526D2A27A001C36F7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C1BF5E9A26D2A881001C36F7 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		C1BF5EA026D2B4D3001C36F7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E348801DD682A28B8EC7AD2A /* Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBancoAztecaTests/Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F56907CCCF284DD5F0DF49E2 /* Pods_PruebaTecnicaBancoAzteca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaTecnicaBancoAzteca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED15BC1BC8507BCAC777FA38 /* Pods_PruebaTecnicaBancoAzteca.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CF6BE0FB970A4B3930E152 /* Pods_PruebaTecnicaBancoAztecaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE97E03BB0A501EC575EB303 /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17EDD99B1E0DBEDA256D81E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85227D6D91FB8375EB117 /* Pods-PruebaTecnicaBancoAzteca.debug.xcconfig */,
+				37FCF431A7DBF3A1A798DF08 /* Pods-PruebaTecnicaBancoAzteca.release.xcconfig */,
+				88D193EC69C3F87C1518FBFA /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.debug.xcconfig */,
+				46EFDF783B926713E3224C0A /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.release.xcconfig */,
+				E348801DD682A28B8EC7AD2A /* Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig */,
+				86DA7268753472F69F1417A9 /* Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1ABAA84CE2896173ABDADB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F56907CCCF284DD5F0DF49E2 /* Pods_PruebaTecnicaBancoAzteca.framework */,
+				2D18BFF0D19DB5B1974DDBDB /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework */,
+				37668ED66CEF5F750194A498 /* Pods_PruebaTecnicaBancoAztecaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1BF5E5126D20E5C001C36F7 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +128,8 @@
 				C1BF5E7326D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests */,
 				C1BF5E7E26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests */,
 				C1BF5E5B26D20E5C001C36F7 /* Products */,
+				17EDD99B1E0DBEDA256D81E5 /* Pods */,
+				B1ABAA84CE2896173ABDADB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1BF5E8426D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAzteca" */;
 			buildPhases = (
+				322BAD41D690848C6ED3DC37 /* [CP] Check Pods Manifest.lock */,
 				C1BF5E5626D20E5C001C36F7 /* Sources */,
 				C1BF5E5726D20E5C001C36F7 /* Frameworks */,
 				C1BF5E5826D20E5C001C36F7 /* Resources */,
+				DAACDD4B7A9B3C13E7C8DEDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1BF5E8726D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaTests" */;
 			buildPhases = (
+				58FA4C1904F811D9C33E45BC /* [CP] Check Pods Manifest.lock */,
 				C1BF5E6C26D20E66001C36F7 /* Sources */,
 				C1BF5E6D26D20E66001C36F7 /* Frameworks */,
 				C1BF5E6E26D20E66001C36F7 /* Resources */,
@@ -195,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1BF5E8A26D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaUITests" */;
 			buildPhases = (
+				B6511B126B4FE971711C8BF2 /* [CP] Check Pods Manifest.lock */,
 				C1BF5E7726D20E66001C36F7 /* Sources */,
 				C1BF5E7826D20E66001C36F7 /* Frameworks */,
 				C1BF5E7926D20E66001C36F7 /* Resources */,
+				245CEEDE72B88E4D573ABCDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +323,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245CEEDE72B88E4D573ABCDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		322BAD41D690848C6ED3DC37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaTecnicaBancoAzteca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58FA4C1904F811D9C33E45BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaTecnicaBancoAztecaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6511B126B4FE971711C8BF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAACDD4B7A9B3C13E7C8DEDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca/Pods-PruebaTecnicaBancoAzteca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca/Pods-PruebaTecnicaBancoAzteca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBancoAzteca/Pods-PruebaTecnicaBancoAzteca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1BF5E5626D20E5C001C36F7 /* Sources */ = {
@@ -461,6 +610,7 @@
 		};
 		C1BF5E8526D20E66001C36F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB85227D6D91FB8375EB117 /* Pods-PruebaTecnicaBancoAzteca.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +630,7 @@
 		};
 		C1BF5E8626D20E66001C36F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FCF431A7DBF3A1A798DF08 /* Pods-PruebaTecnicaBancoAzteca.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +650,7 @@
 		};
 		C1BF5E8826D20E66001C36F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E348801DD682A28B8EC7AD2A /* Pods-PruebaTecnicaBancoAztecaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +673,7 @@
 		};
 		C1BF5E8926D20E66001C36F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DA7268753472F69F1417A9 /* Pods-PruebaTecnicaBancoAztecaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +696,7 @@
 		};
 		C1BF5E8B26D20E66001C36F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D193EC69C3F87C1518FBFA /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +717,7 @@
 		};
 		C1BF5E8C26D20E66001C36F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EFDF783B926713E3224C0A /* Pods-PruebaTecnicaBancoAzteca-PruebaTecnicaBancoAztecaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
