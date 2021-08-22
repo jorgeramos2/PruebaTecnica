@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */; };
+		C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */; };
+		C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E6126D20E5C001C36F7 /* ViewController.swift */; };
+		C1BF5E6526D20E5C001C36F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6326D20E5C001C36F7 /* Main.storyboard */; };
+		C1BF5E6726D20E66001C36F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6626D20E66001C36F7 /* Assets.xcassets */; };
+		C1BF5E6A26D20E66001C36F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */; };
+		C1BF5E7526D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E7426D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift */; };
+		C1BF5E8026D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E7F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BF5E7126D20E66001C36F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BF5E5226D20E5C001C36F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BF5E5926D20E5C001C36F7;
+			remoteInfo = PruebaTecnicaBancoAzteca;
+		};
+		C1BF5E7C26D20E66001C36F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BF5E5226D20E5C001C36F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BF5E5926D20E5C001C36F7;
+			remoteInfo = PruebaTecnicaBancoAzteca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1BF5E5A26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnicaBancoAzteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1BF5E6126D20E5C001C36F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1BF5E6426D20E5C001C36F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BF5E6626D20E66001C36F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BF5E6926D20E66001C36F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1BF5E6B26D20E66001C36F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF5E7026D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaBancoAztecaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF5E7426D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaBancoAztecaTests.swift; sourceTree = "<group>"; };
+		C1BF5E7626D20E66001C36F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BF5E7B26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaBancoAztecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BF5E7F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaBancoAztecaUITests.swift; sourceTree = "<group>"; };
+		C1BF5E8126D20E66001C36F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BF5E5726D20E5C001C36F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E6D26D20E66001C36F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E7826D20E66001C36F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BF5E5126D20E5C001C36F7 = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E5C26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */,
+				C1BF5E7326D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests */,
+				C1BF5E7E26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests */,
+				C1BF5E5B26D20E5C001C36F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BF5E5B26D20E5C001C36F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E5A26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca.app */,
+				C1BF5E7026D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.xctest */,
+				C1BF5E7B26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BF5E5C26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */,
+				C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */,
+				C1BF5E6126D20E5C001C36F7 /* ViewController.swift */,
+				C1BF5E6326D20E5C001C36F7 /* Main.storyboard */,
+				C1BF5E6626D20E66001C36F7 /* Assets.xcassets */,
+				C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */,
+				C1BF5E6B26D20E66001C36F7 /* Info.plist */,
+			);
+			path = PruebaTecnicaBancoAzteca;
+			sourceTree = "<group>";
+		};
+		C1BF5E7326D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E7426D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift */,
+				C1BF5E7626D20E66001C36F7 /* Info.plist */,
+			);
+			path = PruebaTecnicaBancoAztecaTests;
+			sourceTree = "<group>";
+		};
+		C1BF5E7E26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF5E7F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift */,
+				C1BF5E8126D20E66001C36F7 /* Info.plist */,
+			);
+			path = PruebaTecnicaBancoAztecaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BF5E5926D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF5E8426D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAzteca" */;
+			buildPhases = (
+				C1BF5E5626D20E5C001C36F7 /* Sources */,
+				C1BF5E5726D20E5C001C36F7 /* Frameworks */,
+				C1BF5E5826D20E5C001C36F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PruebaTecnicaBancoAzteca;
+			productName = PruebaTecnicaBancoAzteca;
+			productReference = C1BF5E5A26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BF5E6F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF5E8726D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaTests" */;
+			buildPhases = (
+				C1BF5E6C26D20E66001C36F7 /* Sources */,
+				C1BF5E6D26D20E66001C36F7 /* Frameworks */,
+				C1BF5E6E26D20E66001C36F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BF5E7226D20E66001C36F7 /* PBXTargetDependency */,
+			);
+			name = PruebaTecnicaBancoAztecaTests;
+			productName = PruebaTecnicaBancoAztecaTests;
+			productReference = C1BF5E7026D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1BF5E7A26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BF5E8A26D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaUITests" */;
+			buildPhases = (
+				C1BF5E7726D20E66001C36F7 /* Sources */,
+				C1BF5E7826D20E66001C36F7 /* Frameworks */,
+				C1BF5E7926D20E66001C36F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BF5E7D26D20E66001C36F7 /* PBXTargetDependency */,
+			);
+			name = PruebaTecnicaBancoAztecaUITests;
+			productName = PruebaTecnicaBancoAztecaUITests;
+			productReference = C1BF5E7B26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BF5E5226D20E5C001C36F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C1BF5E5926D20E5C001C36F7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C1BF5E6F26D20E66001C36F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1BF5E5926D20E5C001C36F7;
+					};
+					C1BF5E7A26D20E66001C36F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1BF5E5926D20E5C001C36F7;
+					};
+				};
+			};
+			buildConfigurationList = C1BF5E5526D20E5C001C36F7 /* Build configuration list for PBXProject "PruebaTecnicaBancoAzteca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BF5E5126D20E5C001C36F7;
+			productRefGroup = C1BF5E5B26D20E5C001C36F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BF5E5926D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */,
+				C1BF5E6F26D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests */,
+				C1BF5E7A26D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BF5E5826D20E5C001C36F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF5E6A26D20E66001C36F7 /* LaunchScreen.storyboard in Resources */,
+				C1BF5E6726D20E66001C36F7 /* Assets.xcassets in Resources */,
+				C1BF5E6526D20E5C001C36F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E6E26D20E66001C36F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E7926D20E66001C36F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BF5E5626D20E5C001C36F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */,
+				C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */,
+				C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E6C26D20E66001C36F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF5E7526D20E66001C36F7 /* PruebaTecnicaBancoAztecaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BF5E7726D20E66001C36F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF5E8026D20E66001C36F7 /* PruebaTecnicaBancoAztecaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BF5E7226D20E66001C36F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BF5E5926D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */;
+			targetProxy = C1BF5E7126D20E66001C36F7 /* PBXContainerItemProxy */;
+		};
+		C1BF5E7D26D20E66001C36F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BF5E5926D20E5C001C36F7 /* PruebaTecnicaBancoAzteca */;
+			targetProxy = C1BF5E7C26D20E66001C36F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BF5E6326D20E5C001C36F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BF5E6426D20E5C001C36F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BF5E6926D20E66001C36F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BF5E8226D20E66001C36F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1BF5E8326D20E66001C36F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BF5E8526D20E66001C36F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAzteca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAzteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1BF5E8626D20E66001C36F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAzteca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAzteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1BF5E8826D20E66001C36F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAztecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAztecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnicaBancoAzteca.app/PruebaTecnicaBancoAzteca";
+			};
+			name = Debug;
+		};
+		C1BF5E8926D20E66001C36F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAztecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAztecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnicaBancoAzteca.app/PruebaTecnicaBancoAzteca";
+			};
+			name = Release;
+		};
+		C1BF5E8B26D20E66001C36F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAztecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAztecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PruebaTecnicaBancoAzteca;
+			};
+			name = Debug;
+		};
+		C1BF5E8C26D20E66001C36F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823685848T;
+				INFOPLIST_FILE = PruebaTecnicaBancoAztecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebatecnica.PruebaTecnicaBancoAztecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PruebaTecnicaBancoAzteca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BF5E5526D20E5C001C36F7 /* Build configuration list for PBXProject "PruebaTecnicaBancoAzteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF5E8226D20E66001C36F7 /* Debug */,
+				C1BF5E8326D20E66001C36F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF5E8426D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAzteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF5E8526D20E66001C36F7 /* Debug */,
+				C1BF5E8626D20E66001C36F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF5E8726D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF5E8826D20E66001C36F7 /* Debug */,
+				C1BF5E8926D20E66001C36F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BF5E8A26D20E66001C36F7 /* Build configuration list for PBXNativeTarget "PruebaTecnicaBancoAztecaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BF5E8B26D20E66001C36F7 /* Debug */,
+				C1BF5E8C26D20E66001C36F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BF5E5226D20E5C001C36F7 /* Project object */;
+}
