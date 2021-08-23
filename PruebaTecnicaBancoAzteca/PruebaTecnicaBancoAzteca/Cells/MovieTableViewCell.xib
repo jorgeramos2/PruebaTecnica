@@ -51,7 +51,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="movieImageView" destination="rvP-HX-XeQ" id="8mQ-fe-mf8"/>
-                <outlet property="releaseDate" destination="JQS-Fs-OB7" id="vTW-XH-3zu"/>
+                <outlet property="releaseDateLabel" destination="JQS-Fs-OB7" id="GYR-AL-Q6W"/>
                 <outlet property="titleLabel" destination="v10-qA-oxw" id="2pE-Ty-2OR"/>
             </connections>
             <point key="canvasLocation" x="130.43478260869566" y="90.401785714285708"/>

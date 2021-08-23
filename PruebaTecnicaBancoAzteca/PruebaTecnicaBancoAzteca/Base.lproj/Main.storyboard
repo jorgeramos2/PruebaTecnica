@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JWh-Qg-e8y">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="CGL-Qo-EDz" id="wBn-La-5ed"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Playing Now" selectedImage="play.rectangle.fill" catalog="system" id="giF-bk-K4f"/>
+                    <tabBarItem key="tabBarItem" title="Playing Now" image="play.rectangle.fill" catalog="system" id="giF-bk-K4f"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jys-xj-sbs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +57,7 @@
         <!--Most Popular-->
         <scene sceneID="g8e-5R-Avc">
             <objects>
-                <tableViewController id="Fat-Yk-1FF" sceneMemberID="viewController">
+                <tableViewController id="Fat-Yk-1FF" customClass="MostPopularTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rM7-rE-py8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -10,26 +10,28 @@ import UIKit
 class ViewController: UIViewController {
     
     var API = APIManager()
-    var movies = [Movie]()
+    var videos = [Video]()
+    var movieID = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        API.getNowPlayingMoviesData{(result) in
+        getVideo()
+        
+    }
+    func getVideo()
+    {
+        
+        API.getMovieVideos(movieID: String(movieID)){(result) in
             switch result
             {
             case .success(let list):
-                self.movies = list.movies
-                print(self.movies[0].title)
+                self.videos = list.videos
+               
             case .failure(let error):
                 print(error)
             }
-            
-        }
-        /*API.getMovieVideos(movieID: "436969"){(result) in
-            print(result)
-        }*/
-    }
 
+        }
+    }
 
 }
 

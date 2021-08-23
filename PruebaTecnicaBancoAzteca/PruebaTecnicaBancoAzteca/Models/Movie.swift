@@ -30,6 +30,7 @@ struct Movie: Decodable {
         case voteCount = "vote_count"
         case releaseDate = "release_date"
     }
+    
 }
  
 

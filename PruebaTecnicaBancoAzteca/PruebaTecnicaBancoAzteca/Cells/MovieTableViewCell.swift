@@ -6,13 +6,13 @@
 //
 
 import UIKit
-
+import Kingfisher
 class MovieTableViewCell: UITableViewCell {
     
     let identifier = "MovieTableViewCell"
     @IBOutlet var movieImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var releaseDate: UILabel!
+    @IBOutlet var releaseDateLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -30,7 +30,10 @@ class MovieTableViewCell: UITableViewCell {
     
     public func setup(with title:String , image:String , releaseDate:String)
     {
-        
+        let url = URL(string: "https://image.tmdb.org/t/p/w500" + image)
+        movieImageView.kf.setImage(with: url)
+        titleLabel.text = title
+        releaseDateLabel.text = releaseDate
     }
     
 }
