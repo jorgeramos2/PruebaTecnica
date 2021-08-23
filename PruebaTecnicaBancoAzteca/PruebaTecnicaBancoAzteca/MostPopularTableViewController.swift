@@ -12,13 +12,15 @@ class MostPopularTableViewController: UITableViewController {
     var movies = [Movie]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.getMovies()
+        getMovies()
+        tableViewSetup()
+    }
+    func tableViewSetup()
+    {
         tableView.register(MovieTableViewCell.nib(), forCellReuseIdentifier: MovieTableViewCell.identifier)
         tableView.delegate = self
         tableView.dataSource = self
-     
     }
-   
     func getMovies()
     {
         API.getPopularMoviesData{(result) in
@@ -57,6 +59,15 @@ class MostPopularTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 250
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsView") as! DetailViewController
+       
+        vc.movieID = self.movies[indexPath.row].id!
+        vc.movieTitle = self.movies[indexPath.row].title!
+        vc.summary = self.movies[indexPath.row].overview!
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     /*
     // Override to support conditional editing of the table view.
