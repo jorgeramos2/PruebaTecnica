@@ -11,7 +11,7 @@
 		AE97E03BB0A501EC575EB303 /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18BFF0D19DB5B1974DDBDB /* Pods_PruebaTecnicaBancoAzteca_PruebaTecnicaBancoAztecaUITests.framework */; };
 		C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */; };
 		C1BF5E6026D20E5C001C36F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */; };
-		C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E6126D20E5C001C36F7 /* ViewController.swift */; };
+		C1BF5E6226D20E5C001C36F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5E6126D20E5C001C36F7 /* DetailViewController.swift */; };
 		C1BF5E6526D20E5C001C36F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6326D20E5C001C36F7 /* Main.storyboard */; };
 		C1BF5E6726D20E66001C36F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6626D20E66001C36F7 /* Assets.xcassets */; };
 		C1BF5E6A26D20E66001C36F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */; };
@@ -55,7 +55,7 @@
 		C1BF5E5A26D20E5C001C36F7 /* PruebaTecnicaBancoAzteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnicaBancoAzteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BF5E5D26D20E5C001C36F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1BF5E6126D20E5C001C36F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1BF5E6126D20E5C001C36F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C1BF5E6426D20E5C001C36F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1BF5E6626D20E66001C36F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1BF5E6926D20E66001C36F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				C1BF5E5F26D20E5C001C36F7 /* SceneDelegate.swift */,
 				C1BF5EC926D30DB9001C36F7 /* MostPopularTableViewController.swift */,
 				C1BF5ED126D30E70001C36F7 /* PlayingNowTableViewController.swift */,
-				C1BF5E6126D20E5C001C36F7 /* ViewController.swift */,
+				C1BF5E6126D20E5C001C36F7 /* DetailViewController.swift */,
 				C1BF5E6326D20E5C001C36F7 /* Main.storyboard */,
 				C1BF5E6826D20E66001C36F7 /* LaunchScreen.storyboard */,
 				C1BF5E9426D2A1DB001C36F7 /* Models */,
@@ -454,7 +454,7 @@
 			files = (
 				C1BF5EA126D2B4D3001C36F7 /* APIManager.swift in Sources */,
 				C1BF5ED226D30E70001C36F7 /* PlayingNowTableViewController.swift in Sources */,
-				C1BF5E6226D20E5C001C36F7 /* ViewController.swift in Sources */,
+				C1BF5E6226D20E5C001C36F7 /* DetailViewController.swift in Sources */,
 				C1BF5EB826D2EEB9001C36F7 /* MovieTableViewCell.swift in Sources */,
 				C1BF5E5E26D20E5C001C36F7 /* AppDelegate.swift in Sources */,
 				C1BF5ECA26D30DB9001C36F7 /* MostPopularTableViewController.swift in Sources */,

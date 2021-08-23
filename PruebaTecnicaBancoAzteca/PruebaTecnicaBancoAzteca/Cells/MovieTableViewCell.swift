@@ -9,13 +9,13 @@ import UIKit
 import Kingfisher
 class MovieTableViewCell: UITableViewCell {
     
-    let identifier = "MovieTableViewCell"
+    static let identifier = "MovieTableViewCell"
     @IBOutlet var movieImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var releaseDateLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        movieImageView.contentMode = .scaleAspectFit
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -24,11 +24,11 @@ class MovieTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func nib() -> UINib{
-        return UINib(nibName: "MovieTabkeViewCell", bundle: nil)
+    static func nib() -> UINib{
+        return UINib(nibName: identifier, bundle: nil)
     }
     
-    public func setup(with title:String , image:String , releaseDate:String)
+    public func setup(title:String , image:String , releaseDate:String)
     {
         let url = URL(string: "https://image.tmdb.org/t/p/w500" + image)
         movieImageView.kf.setImage(with: url)

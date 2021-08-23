@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,7 +29,7 @@
         <!--Playing Now-->
         <scene sceneID="SdS-LP-cGo">
             <objects>
-                <tableViewController id="CGL-Qo-EDz" sceneMemberID="viewController">
+                <tableViewController id="CGL-Qo-EDz" customClass="PlayingNowTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="m2N-YL-fLW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,6 +83,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="juA-ga-RXf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="861" y="-391"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="E0i-nM-567">
+            <objects>
+                <navigationController id="vkc-uF-7kK" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="faS-qF-VVz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Y62-6P-sNy" kind="relationship" relationship="rootViewController" id="WM9-Xs-XVy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="May-3h-odn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1855" y="-42"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UMf-NZ-hZo">
+            <objects>
+                <viewController id="Y62-6P-sNy" customClass="ViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BFv-tG-c1y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="I46-Rv-IR5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pGl-TC-nrc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxS-gI-qh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2687" y="-42"/>
         </scene>
     </scenes>
     <resources>
