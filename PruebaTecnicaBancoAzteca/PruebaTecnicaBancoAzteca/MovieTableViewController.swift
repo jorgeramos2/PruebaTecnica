@@ -1,5 +1,5 @@
 //
-//  PlayingNowTableViewController.swift
+//  MostPopularTableViewController.swift
 //  PruebaTecnicaBancoAzteca
 //
 //  Created by Jorge Ramos on 22/08/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PlayingNowTableViewController: UITableViewController {
+class MovieTableViewController: UITableViewController {
     var API = APIManager()
     var movies = [Movie]()
     override func viewDidLoad() {
@@ -23,19 +23,35 @@ class PlayingNowTableViewController: UITableViewController {
     }
     func getMovies()
     {
-        API.getNowPlayingMoviesData{(result) in
-            switch result
-            {
-            case .success(let list):
-                self.movies = list.movies
-                self.tableView.reloadData()
-                
-            case .failure(let error):
-                print(error)
+        if(tabBarController?.selectedIndex == 0)
+        {
+            API.getPopularMoviesData{(result) in
+                switch result
+                {
+                case .success(let list):
+                    self.movies = list.movies
+                    self.tableView.reloadData()
+                case .failure(let error):
+                    print(error)
+                }
             }
         }
+        else
+        {
+            API.getNowPlayingMoviesData{(result) in
+                switch result
+                {
+                case .success(let list):
+                    self.movies = list.movies
+                    self.tableView.reloadData()
+                    
+                case .failure(let error):
+                    print(error)
+                }
+            }
+        }
+       
     }
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -45,7 +61,9 @@ class PlayingNowTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+      
         return movies.count
+       
     }
 
     
@@ -69,8 +87,6 @@ class PlayingNowTableViewController: UITableViewController {
         vc.summary = self.movies[indexPath.row].overview!
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    
-
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

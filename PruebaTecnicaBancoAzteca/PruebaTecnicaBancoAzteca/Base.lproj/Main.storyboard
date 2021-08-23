@@ -29,7 +29,7 @@
         <!--Playing Now-->
         <scene sceneID="SdS-LP-cGo">
             <objects>
-                <tableViewController id="CGL-Qo-EDz" customClass="PlayingNowTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="CGL-Qo-EDz" customClass="MovieTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="m2N-YL-fLW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--Most Popular-->
         <scene sceneID="g8e-5R-Avc">
             <objects>
-                <tableViewController id="Fat-Yk-1FF" customClass="MostPopularTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Fat-Yk-1FF" customClass="MovieTableViewController" customModule="PruebaTecnicaBancoAzteca" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rM7-rE-py8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bI0-QM-AQP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bI0-QM-AQP">
                                 <rect key="frame" x="20" y="393" width="374" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="7RM-Rw-KFE"/>
@@ -127,7 +127,7 @@
                                 <rect key="frame" x="20" y="456" width="240" height="4"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="13" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bml-p8-sbh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bml-p8-sbh">
                                 <rect key="frame" x="20" y="485" width="350" height="360"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
