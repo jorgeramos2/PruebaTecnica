@@ -23,6 +23,7 @@ class MovieTableViewController: UITableViewController {
     }
     func getMovies()
     {
+        // Get Popular Movies if current index is Popular Movies
         if(tabBarController?.selectedIndex == 0)
         {
             API.getPopularMoviesData{(result) in
@@ -36,6 +37,7 @@ class MovieTableViewController: UITableViewController {
                 }
             }
         }
+        // Get Playing Now Movies if current index is Playing Now
         else
         {
             API.getNowPlayingMoviesData{(result) in
@@ -68,8 +70,9 @@ class MovieTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Reusable cell Movie Table View Cell
         let cell = tableView.dequeueReusableCell(withIdentifier: MovieTableViewCell.identifier, for: indexPath) as! MovieTableViewCell
-
+        // Pass Movie information to cell
         cell.setup(title: movies[indexPath.row].title!, image: movies[indexPath.row].image!, releaseDate: movies[indexPath.row].releaseDate!)
 
         return cell
@@ -80,8 +83,9 @@ class MovieTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Go to details view controller when clicking Movie cell
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsView") as! DetailViewController
-       
+       // Pass Movie information to Details View Controller
         vc.movieID = self.movies[indexPath.row].id!
         vc.movieTitle = self.movies[indexPath.row].title!
         vc.summary = self.movies[indexPath.row].overview!

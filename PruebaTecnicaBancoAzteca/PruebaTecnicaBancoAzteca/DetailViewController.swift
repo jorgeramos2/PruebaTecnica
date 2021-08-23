@@ -10,9 +10,7 @@ import youtube_ios_player_helper
 class DetailViewController: UIViewController {
     
     @IBOutlet weak var movieTitleLabel: UILabel!
-    
     @IBOutlet weak var summaryLabel: UILabel!
-    
     @IBOutlet weak var videoPlayer: YTPlayerView!
     var API = APIManager()
     var videos = [Video]()
