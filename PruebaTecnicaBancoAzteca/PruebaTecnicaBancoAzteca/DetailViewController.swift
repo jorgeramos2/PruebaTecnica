@@ -25,7 +25,7 @@ class DetailViewController: UIViewController {
         
     }
     override func viewDidLayoutSubviews() {
-        //summaryLabel.sizeToFit()
+        summaryLabel.sizeToFit()
       
         
     }
