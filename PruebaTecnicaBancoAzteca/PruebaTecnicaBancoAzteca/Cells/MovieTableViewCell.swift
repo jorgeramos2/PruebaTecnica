@@ -15,9 +15,9 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet var releaseDateLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        movieImageView.contentMode = .scaleAspectFit
+        
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
@@ -32,6 +32,8 @@ class MovieTableViewCell: UITableViewCell {
     {
         let url = URL(string: "https://image.tmdb.org/t/p/w500" + image)
         movieImageView.kf.setImage(with: url)
+        movieImageView.clipsToBounds = true
+        movieImageView.contentMode = .scaleAspectFill
         titleLabel.text = title
         releaseDateLabel.text = releaseDate
     }
